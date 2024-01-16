@@ -70,6 +70,6 @@ public class playerMovement : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        platformBehavior.speed;
+        
     }
 }

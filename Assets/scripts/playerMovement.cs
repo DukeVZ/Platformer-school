@@ -19,6 +19,8 @@ public class playerMovement : MonoBehaviour
 
     public Animator animator;
 
+    private float xPosition;
+    private float yPosition;
     // Start is called before the first frame update
     void Start()
     {
@@ -69,5 +71,21 @@ public class playerMovement : MonoBehaviour
         }
     }
 
+    // as sone as you stand on a platform you move with the platform 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        yPosition = transform.position.y;
+
+        //make you move with the platform and makes turns with the platform 
+        if (collision.gameObject.name == "platform") 
+        {
+            xPosition = transform.position.x + platformBehavior.speed * Time.deltaTime;
+            transform.position = new Vector3(xPosition, yPosition, 0);
+        }
+        
+
+
+
+    }
 
 }

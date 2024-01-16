@@ -6,7 +6,7 @@ public class platformBehavior : MonoBehaviour
 {
     public GameObject pointA;
     public GameObject pointB;
-    public  float speed;
+    public static float speed = 3f;
     private float xPosition;
     private float yPosition;
     void Start()

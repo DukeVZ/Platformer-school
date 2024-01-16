@@ -10,4 +10,14 @@ public class buttons : MonoBehaviour
     {
         SceneManager.LoadScene("Level 1");
     }
+
+    public void Back()
+    {
+        SceneManager.LoadScene("startMenu");
+    }
+
+    public void Wat()
+    {
+        SceneManager.LoadScene("watToDo");
+    }
 }

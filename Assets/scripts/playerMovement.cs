@@ -67,4 +67,9 @@ public class playerMovement : MonoBehaviour
             isJumping = true;
         }
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        platformBehavior.speed;
+    }
 }

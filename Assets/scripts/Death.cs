@@ -8,7 +8,7 @@ public class Death : MonoBehaviour
     public GameObject startPoint;
     public GameObject Player;
     
-    // when you die you go back the start
+    // when you die you go back the start   
 
     private void OnCollisionEnter2D(Collision2D other)
     {

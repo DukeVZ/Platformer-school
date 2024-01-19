@@ -1448,7 +1448,7 @@ GameObject:
   - component: {fileID: 890301336}
   - component: {fileID: 890301335}
   m_Layer: 0
-  m_Name: Square (15)
+  m_Name: dead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1511,8 +1511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f49bba7dcbc1b4f4f953d367ec19748d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 39993740}
+  Player: {fileID: 542696744}
 --- !u!212 &890301337
 SpriteRenderer:
   m_ObjectHideFlags: 0

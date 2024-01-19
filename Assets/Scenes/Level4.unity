@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 241351049}
   - component: {fileID: 241351052}
   m_Layer: 0
-  m_Name: Square
+  m_Name: dead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

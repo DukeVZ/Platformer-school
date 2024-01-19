@@ -816,8 +816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f49bba7dcbc1b4f4f953d367ec19748d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  Player: {fileID: 0}
+  startPoint: {fileID: 1807856171}
+  Player: {fileID: 807687289}
 --- !u!212 &587601089
 SpriteRenderer:
   m_ObjectHideFlags: 0

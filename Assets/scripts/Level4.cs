@@ -9,7 +9,7 @@ public class level4 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("level 4");
+            SceneManager.LoadScene("level4");
         }
     }
 }

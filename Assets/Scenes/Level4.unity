@@ -638,6 +638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4506980630016789381, guid: 2793bc3b6d57596429b4e8b97efe1dd5, type: 3}
+      propertyPath: isJumping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6761317433310415128, guid: 2793bc3b6d57596429b4e8b97efe1dd5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.8764114
@@ -766,8 +770,8 @@ Transform:
   m_GameObject: {fileID: 829680848}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.3496475, y: 8.108713, z: 8.71527}
-  m_LocalScale: {x: 2.0063746, y: 1, z: 1}
+  m_LocalPosition: {x: -10.1706, y: 8.108713, z: 8.71527}
+  m_LocalScale: {x: 2.2473402, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1905926714}
@@ -1313,8 +1317,8 @@ Transform:
   m_GameObject: {fileID: 1042135412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.837948, y: 1.7287135, z: -1.2847303}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -30.7144, y: 1.7287135, z: -1.2847303}
+  m_LocalScale: {x: 1.2438, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1905926714}
@@ -1888,8 +1892,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1851518430}
   - component: {fileID: 1851518429}
-  - component: {fileID: 1851518428}
   - component: {fileID: 1851518427}
+  - component: {fileID: 1851518431}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Untagged
@@ -1942,18 +1946,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1851518428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851518426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaa96bfee8a3f0546b54afb0d72ab011, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1851518429
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2021,6 +2013,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 847285689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851518431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851518426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ca59371f0cb2a47908af6e5dc469c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1905926713
 GameObject:
   m_ObjectHideFlags: 0

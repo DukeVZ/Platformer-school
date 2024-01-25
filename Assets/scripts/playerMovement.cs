@@ -43,6 +43,7 @@ public class playerMovement : MonoBehaviour
 
         rb.velocity = new Vector2(speed * Move, rb.velocity.y);
         animator.SetFloat("Speed", Mathf.Abs (Move));
+
         //you can only jump once (not in the air)
         if (Input.GetButtonDown("Jump") &&  isJumping == false)
         {

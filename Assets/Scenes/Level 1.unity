@@ -291,7 +291,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 217369211}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7dd374a5fc9c778449f6fd94bf6bd767, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 587601088}
   - component: {fileID: 587601087}
   m_Layer: 0
-  m_Name: Square (5)
+  m_Name: DeathZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -912,7 +912,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 671202303}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7dd374a5fc9c778449f6fd94bf6bd767, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1608,7 +1608,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1817191605}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7dd374a5fc9c778449f6fd94bf6bd767, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

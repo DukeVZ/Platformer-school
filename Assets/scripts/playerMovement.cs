@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class playerMovement : MonoBehaviour
 {
@@ -50,6 +51,11 @@ public class playerMovement : MonoBehaviour
             //makes the animations work
             animator.SetBool("isJumping", true);
             rb.AddForce(new Vector2(rb.velocity.x, jump));
+        }
+
+        if (Input.GetKey("q"))
+        {
+            SceneManager.LoadScene("startMenu");
         }
     }
 
